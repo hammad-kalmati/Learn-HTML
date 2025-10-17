@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Tag</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend><span style="background-color: yellow;"> Enter Your Personal Details </span></legend>
+            <p>Name : <input type="text" placeholder="Enter Your Name" /></p>
+
+            <p>PASSWORD : <input type="password" placeholder="Enter Your Password" /></p>
+
+            <p>GENDER : <input id="Male" name="a" type="radio"> <label for="Male">Male</label> <input name="a"
+                    id="Female" type="radio"> <label for="Female">Female</label>
+
+            <p>HOBBIES : <input type="checkbox" name="" id="Swimming" /> <label for="Hobbies">Swimming</label> <input
+                    type="checkbox" name="" id="Football" /> <label for="Hobbies">Football</label></p>
+
+            <p>COMMENT... <textarea name="" rows="10" cols="60" id="">Review Here..!</textarea></p>
+
+            <label for="Country">Country</label>
+            <select size="3" multiple name="" id="">
+                <option value="In">India</option>
+                <option value="Pk" selected>Pakistan</option>
+                <option value="Ch">China</option>
+                <option value="Sl">Sri lanka</option>
+            </select> <br><br>
+            <label for="Cars">Cars</label>
+            <select name="" id="">
+                <optgroup label="Toyota">
+                    <option value="">Corolla</option>
+                    <option value="">Vego</option>
+                    <option value="">Land cruiser</option>
+                </optgroup>
+                <optgroup label="Honda">
+                    <option value="">Civic</option>
+                    <option value="">Dumper</option>
+                    <option value="">Mazda</option>
+                </optgroup>
+            </select> <br><br>
+            <label>Cars</label>
+            <input list="Cars">
+            <datalist id="Cars">
+                <option value="Swift">
+                <option value="Thar">
+                <option value="Honda Civic">
+                <option value="BMW i8">
+                <option value="Ferrari">
+            </datalist> <br><br>
+            <label for="">Upload File</label> <input type="file" name="" accept="image/*"> <br><br>
+            <input type="submit" value="Save" name="" id="">
+            <input type="button" value="Reset" name="" id="">
+            <input type="image" src="Beauty Vlogger.png" height="30" alt="submit button" width="30" name="" id="">
+        </fieldset>
+    </form> <br>
+    <a href="index.html">Go Back</a>
+</body>
+
+</html>
